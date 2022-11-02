@@ -20,6 +20,9 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('polls/', include('selfsite.urls')),
     path('admin/', admin.site.urls),
+    path('baton/', include('baton.urls')),
+    path('dashboard/', include('testdashboard.urls')),
+    path('', include('selfsite.urls')),
+
 ]
