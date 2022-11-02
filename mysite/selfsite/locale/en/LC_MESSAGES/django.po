@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-02 11:57+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\selfsite\templates\selfsite\index.html:10
+#: .\selfsite\templates\selfsite\index.html:110
+msgid "Abdullokh Alimov"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:47
+msgid "Home"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:48
+msgid "About"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:49
+#: .\selfsite\templates\selfsite\index.html:181
+msgid "Services"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:50
+msgid "Work"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:51
+msgid "Blog"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:52
+msgid "Drop Down"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:69
+msgid "Contact"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:84
+msgid "I am Abdullokh Alimov"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:85
+msgid "Developer, Freelancer"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:110
+msgid "Name:"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:111
+msgid "Profile:"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:111
+msgid "Junior Software Developer"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:112
+msgid "Email:"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:113
+msgid "Phone:"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:118
+msgid "Skill"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:149
+msgid "About me"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:184
+msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:212
+msgid "Web Development"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:227
+msgid "Photography"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:242
+msgid "Responsive Design"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:257
+msgid "Graphic Design"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:272
+msgid "Marketing Services"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:297
+msgid "WORKS COMPLETED"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:308
+msgid "YEARS OF EXPERIENCE"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:319
+msgid "TOTAL CLIENTS"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:330
+msgid "AWARD WON"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:520
+#: .\selfsite\templates\selfsite\index.html:534
+msgid "Future Reviewer"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:524
+msgid "Here may be your review about me and my skills."
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:538
+msgid "Here may be your review about me and my skills"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:683
+msgid "Send Message To Me"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:710
+msgid "Loading"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:712
+msgid "Your message has been sent. Thank you!"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:715
+msgid "Send Message"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:724
+msgid "Get in Touch"
+msgstr ""
+
+#: .\selfsite\templates\selfsite\index.html:729
+msgid ""
+"Want to know more about me or suggest a project? Let me know with filling "
+"this form or contact me with one of links below"
+msgstr ""

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load i18n %}
 {% load static %}
 <html lang="en">
 
@@ -6,7 +7,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Abdullokh Alimov</title>
+  <title>{% translate "Abdullokh Alimov" %}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,29 +44,30 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">{% translate "Home" %}</a></li>
+          <li><a class="nav-link scrollto" href="#about">{% translate "About" %}</a></li>
+          <li><a class="nav-link scrollto" href="#services">{% translate "Services" %}</a></li>
+          {% comment %} <li><a class="nav-link scrollto " href="#work">{% translate "Work" %}</a></li> {% endcomment %}
+          {% comment %} <li><a class="nav-link scrollto " href="#blog">{% translate "Blog" %}</a></li> {% endcomment %}
+          <li><a class="nav-link scrollto" href="#contact">{% translate "Contact" %}</a></li>
+          <li class="dropdown"><a href="#"><span>{% translate "English" %}</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="languages">
+              {% get_current_language as CURRENT_LANGUAGE %}
+              {% get_available_languages as AVAILABLE_LANGUAGES %}
+              {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+                  {% for language in languages %}
+                    <li>
+                      <a href="/{{ language.code }}/"
+                        {% if language.code == CURRENT_LANGUAGE %} class="active"{% endif %}>
+                        {{ language.name_local }}
+                      </a>
+                    </li>
+                  {% endfor %}
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              
+        
+              
+            </ul></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,8 +82,8 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Abdullokh Alimov</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Developer, Freelancer"></span></p>
+          <h1 class="hero-title mb-4">{% translate "I am Abdullokh Alimov" %}</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="{% translate 'Developer, Freelancer' %}"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -106,16 +108,16 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Abdullokh Alimov</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Junior Software Developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>abdullohalimov@yandex.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>+998 99 888 19 65</span></p>
+                        <p><span class="title-s">{% translate "Name:" %} </span> <span>{% translate "Abdullokh Alimov" %}</span></p>
+                        <p><span class="title-s">{% translate "Profile:" %} </span> <span>{% translate "Junior Software Developer" %}</span></p>
+                        <p><span class="title-s">{% translate "Email:" %} </span> <span>abdullohalimov@yandex.com</span></p>
+                        <p><span class="title-s">{% translate "Phone:" %} </span> <span>+998 99 888 19 65</span></p>
                       </div>
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML + CSS</span> <span class="pull-right">64%</span>
+                    <p class="title-s">{% translate "Skill" %}</p>
+                    <span>HTML + CSS + Bootstrap 5</span> <span class="pull-right">64%</span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -145,21 +147,21 @@
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        About me
+                        {% translate "About me" %}
                       </h5>
                     </div>
                     <p class="lead">
-                      21 Year old Junoir Software Developer from Tashkent, Uzbekistan. I'm looking for interesting projects
-                      to participate in for gain new experience and learn something new.
+                      {% blocktranslate %} 21 Year old Junoir Software Developer from Tashkent, Uzbekistan. I'm looking for interesting projects
+                      to participate in for gain new experience and learn something new. {% endblocktranslate %}
                     </p>
                     <p class="lead">
-                      I'm interested in all areas of programming, especially in Backend and Mobile Development. I know
+                      {% blocktranslate %} I'm interested in all areas of programming, especially in Backend and Mobile Development. I know
                       basics of Android development in Kotlin and Java. And can create basic site's backend with
-                      Python + Django pair.
+                      Python + Django pair. {% endblocktranslate %}
                     </p>
                     <p class="lead">
-                      I like write scripts for automation tasks and routines. Can write Scripts for OS routines
-                      in PyAutoGui, Website automation scripts with Selenium, and Site scraper with BeautifulSoup4
+                      {% blocktranslate %} I like write scripts for automation tasks and routines. Can write Scripts for OS routines
+                      in PyAutoGui, Website automation scripts with Selenium, and Site scraper with BeautifulSoup4 {% endblocktranslate %}
                     </p>
                   </div>
                 </div>
@@ -177,10 +179,10 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Services
+                {% translate "Services" %}
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                {% translate "Lorem ipsum, dolor sit amet consectetur adipisicing elit." %}
               </p>
               <div class="line-mf"></div>
             </div>
@@ -193,11 +195,10 @@
                 <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">{% translate "Web Design" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  {% blocktranslate %}1Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -208,11 +209,11 @@
                 <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">{% translate "Web Development" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  {% blocktranslate %}2Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
                   provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  tempora perferendis eum non provident."{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -223,11 +224,11 @@
                 <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Photography</h2>
+                <h2 class="s-title">{% translate "Photography" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  {% blocktranslate %}3Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
                   provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  tempora perferendis eum non provident." {% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -238,11 +239,10 @@
                 <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
+                <h2 class="s-title">{% translate "Responsive Design" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  {% blocktranslate %}4Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -253,11 +253,10 @@
                 <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
+                <h2 class="s-title">{% translate "Graphic Design" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  {% blocktranslate %}5Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -268,11 +267,10 @@
                 <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
+                <h2 class="s-title">{% translate "Marketing Services" %}</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  {% blocktranslate %}6Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -293,7 +291,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <span class="counter-text">{% translate "WORKS COMPLETED" %}</span>
               </div>
             </div>
           </div>
@@ -304,7 +302,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <span class="counter-text">{% translate "YEARS OF EXPERIENCE" %}</span>
               </div>
             </div>
           </div>
@@ -315,7 +313,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <span class="counter-text">{% translate "TOTAL CLIENTS" %}</span>
               </div>
             </div>
           </div>
@@ -326,7 +324,7 @@
               </div>
               <div class="counter-num">
                 <p data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <span class="counter-text">{% translate "AWARD WON" %}</span>
               </div>
             </div>
           </div>
@@ -516,11 +514,11 @@
                   <div class="testimonial-box">
                     <div class="author-test">
                       <img src="{% static 'selfsite/img/testimonial-2.jpg' %}" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Future Reviewer</span>
+                      <span class="author">{% translate "Future Reviewer" %}</span>
                     </div>
                     <div class="content-test">
                       <p class="description lead">
-                        Here may be your review about me and my skills.
+                        {% translate "Here may be your review about me and my skills." %}
                       </p>
                     </div>
                   </div>
@@ -530,11 +528,11 @@
                   <div class="testimonial-box">
                     <div class="author-test">
                       <img src="{% static 'selfsite/img/testimonial-4.jpg' %}" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Future Reviewer</span>
+                      <span class="author">{% translate "Future Reviewer" %}</span>
                     </div>
                     <div class="content-test">
                       <p class="description lead">
-                        Here may be your review about me and my skills
+                        {% translate "Here may be your review about me and my skills" %}
                       </p>
                     </div>
                   </div>
@@ -679,7 +677,7 @@
                   <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message To Me
+                        {% translate "Send Message To Me" %}
                       </h5>
                     </div>
                     <div>
@@ -706,12 +704,12 @@
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">{% translate "Loading" %}</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">{% translate "Your message has been sent. Thank you!" %}</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" class="button button-a button-big button-rouded">{% translate "Send Message" %}</button>
                           </div>
                         </div>
                       </form>
@@ -720,12 +718,12 @@
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
-                        Get in Touch
+                        {% translate "Get in Touch" %}
                       </h5>
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Want to know more about me or suggest a project? Let me know with filling this form or contact me with one of links below
+                        {% translate "Want to know more about me or suggest a project? Let me know with filling this form or contact me with one of links below" %}
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-geo-alt"></span> </li>
