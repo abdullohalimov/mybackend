@@ -38,7 +38,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Alimov</a></h1>
+      <h1 class="logo"><a href="">Alimov</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="selfsite/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -50,7 +50,7 @@
           {% comment %} <li><a class="nav-link scrollto " href="#work">{% translate "Work" %}</a></li> {% endcomment %}
           {% comment %} <li><a class="nav-link scrollto " href="#blog">{% translate "Blog" %}</a></li> {% endcomment %}
           <li><a class="nav-link scrollto" href="#contact">{% translate "Contact" %}</a></li>
-          <li class="dropdown"><a href="#"><span>{% translate "English" %}</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>{% translate "Language" %}</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="languages">
               {% get_current_language as CURRENT_LANGUAGE %}
               {% get_available_languages as AVAILABLE_LANGUAGES %}
@@ -64,9 +64,9 @@
                     </li>
                   {% endfor %}
                 </ul>
-              
-        
-              
+
+
+
             </ul></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -181,9 +181,9 @@
               <h3 class="title-a">
                 {% translate "Services" %}
               </h3>
-              <p class="subtitle-a">
+              {% comment %} <p class="subtitle-a">
                 {% translate "Lorem ipsum, dolor sit amet consectetur adipisicing elit." %}
-              </p>
+              </p> {% endcomment %}
               <div class="line-mf"></div>
             </div>
           </div>
@@ -192,13 +192,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                <span class="ico-circle"><i class="bi bi-telegram"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Web Design" %}</h2>
+                <h2 class="s-title">{% translate "Telegram Bots" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}1Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
+                  {% blocktranslate %}Creating Telegram bots{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -206,14 +205,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                <span class="ico-circle"><i class="bi bi-android"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Web Development" %}</h2>
+                <h2 class="s-title">{% translate "Mobile Development" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}2Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident."{% endblocktranslate %}
+                  {% blocktranslate %}Creating mobile apps for Android{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -221,14 +218,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+                <span class="ico-circle"><i class="bi bi-hdd"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Photography" %}</h2>
+                <h2 class="s-title">{% translate "Creating Web-Site" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}3Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident." {% endblocktranslate %}
+                  {% blocktranslate %}Creating web sites{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -236,13 +231,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+                <span class="ico-circle"><i class="bi bi-browser-chrome"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Responsive Design" %}</h2>
+                <h2 class="s-title">{% translate "Browser Scripts" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}4Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
+                  {% blocktranslate %}Writing Scripts for automatization and testing{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -250,13 +244,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+                <span class="ico-circle"><i class="bi bi-clipboard-data"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Graphic Design" %}</h2>
+                <h2 class="s-title">{% translate "Parsing sites" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}5Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
+                  {% blocktranslate %}Writing parsers{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -264,13 +257,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+                <span class="ico-circle"><i class="bi bi-asterisk"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">{% translate "Marketing Services" %}</h2>
+                <h2 class="s-title">{% translate "Others" %}</h2>
                 <p class="s-description text-center">
-                  {% blocktranslate %}6Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni tempora perferendis eum non provident. {% endblocktranslate %}
+                  {% blocktranslate %}And many more other services{% endblocktranslate %}
                 </p>
               </div>
             </div>
@@ -542,7 +534,7 @@
             </div>
 
             <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
+
         </div> -->
           </div>
         </div>
@@ -733,10 +725,10 @@
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://t.me/Abdulloh0705"><span class="ico-circle"><i class="bi bi-telegram"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/abdulloh751/"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC9NYhNVUhcaU0MOYSZhNxjw"><span class="ico-circle"><i class="bi bi-youtube"></i></span></a></li>
+                        <!--<li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>-->
                       </ul>
                     </div>
                   </div>

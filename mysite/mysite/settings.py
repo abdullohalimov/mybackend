@@ -32,8 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
-    'apitest',
-    'testdashboard',
     'selfsite.apps.SelfsiteConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 16:15+0500\n"
-"PO-Revision-Date: 2022-11-02 16:16+0500\n"
+"POT-Creation-Date: 2022-11-06 00:34+0500\n"
+"PO-Revision-Date: 2022-11-06 00:35+0500\n"
 "Last-Translator:   <test@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,77 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\selfsite\templates\selfsite\index.html:10
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:10
+#: selfsite/templates/selfsite/index.html:113
 msgid "Abdullokh Alimov"
 msgstr "Абдуллох Алимов"
 
-#: .\selfsite\templates\selfsite\index.html:47
+#: selfsite/templates/selfsite/index.html:47
 msgid "Home"
 msgstr "Начало"
 
-#: .\selfsite\templates\selfsite\index.html:48
+#: selfsite/templates/selfsite/index.html:48
 msgid "About"
 msgstr "О себе"
 
-#: .\selfsite\templates\selfsite\index.html:49
-#: .\selfsite\templates\selfsite\index.html:182
+#: selfsite/templates/selfsite/index.html:49
+#: selfsite/templates/selfsite/index.html:184
 msgid "Services"
 msgstr "Услуги"
 
-#: .\selfsite\templates\selfsite\index.html:50
-msgid "Work"
-msgstr "Работы"
-
-#: .\selfsite\templates\selfsite\index.html:51
-msgid "Blog"
-msgstr "Блог"
-
-#: .\selfsite\templates\selfsite\index.html:52
+#: selfsite/templates/selfsite/index.html:54
 msgid "Contact"
 msgstr "Связаться"
 
-#: .\selfsite\templates\selfsite\index.html:53
-msgid "English"
+#: selfsite/templates/selfsite/index.html:55
+msgid "Language"
 msgstr "Русский"
 
-#: .\selfsite\templates\selfsite\index.html:85
+#: selfsite/templates/selfsite/index.html:87
 msgid "I am Abdullokh Alimov"
 msgstr "Моё имя Абдуллох Алимов"
 
-#: .\selfsite\templates\selfsite\index.html:86
+#: selfsite/templates/selfsite/index.html:88
 msgid "Developer, Freelancer"
 msgstr "Программист, Фрилансер"
 
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:113
 msgid "Name:"
 msgstr "Имя:"
 
-#: .\selfsite\templates\selfsite\index.html:112
+#: selfsite/templates/selfsite/index.html:114
 msgid "Profile:"
 msgstr "Специальность"
 
-#: .\selfsite\templates\selfsite\index.html:112
+#: selfsite/templates/selfsite/index.html:114
 msgid "Junior Software Developer"
 msgstr "Junior Software Developer"
 
-#: .\selfsite\templates\selfsite\index.html:113
+#: selfsite/templates/selfsite/index.html:115
 msgid "Email:"
 msgstr "Почта:"
 
-#: .\selfsite\templates\selfsite\index.html:114
+#: selfsite/templates/selfsite/index.html:116
 msgid "Phone:"
 msgstr "Телефон:"
 
-#: .\selfsite\templates\selfsite\index.html:119
+#: selfsite/templates/selfsite/index.html:121
 msgid "Skill"
 msgstr "Навыки"
 
-#: .\selfsite\templates\selfsite\index.html:150
+#: selfsite/templates/selfsite/index.html:152
 msgid "About me"
 msgstr "Обо мне"
 
-#: .\selfsite\templates\selfsite\index.html:154
+#: selfsite/templates/selfsite/index.html:156
 msgid ""
 " 21 Year old Junoir Software Developer from Tashkent, Uzbekistan. I'm looking for interesting projects\n"
 "                      to participate in for gain new experience and learn something new. "
@@ -98,7 +90,7 @@ msgstr ""
 "проекты чтобы учавствовать, получить новый опыт и узнать что-то новое для "
 "себя"
 
-#: .\selfsite\templates\selfsite\index.html:158
+#: selfsite/templates/selfsite/index.html:160
 msgid ""
 " I'm interested in all areas of programming, especially in Backend and Mobile Development. I know\n"
 "                      basics of Android development in Kotlin and Java. And can create basic site's backend with\n"
@@ -108,7 +100,7 @@ msgstr ""
 "Development. Я знаю основы Android-разработки на Kotlin и Java. И могу "
 "создать базовый бэкэнд сайта с помощью связки Python + Django."
 
-#: .\selfsite\templates\selfsite\index.html:163
+#: selfsite/templates/selfsite/index.html:165
 msgid ""
 " I like write scripts for automation tasks and routines. Can write Scripts for OS routines\n"
 "                      in PyAutoGui, Website automation scripts with Selenium, and Site scraper with BeautifulSoup4 "
@@ -117,128 +109,122 @@ msgstr ""
 "писать скрипты для ОС в PyAutoGui, скрипты автоматизации веб-сайтов с "
 "помощью Selenium и парсер сайтов с помощью BeautifulSoup4."
 
-#: .\selfsite\templates\selfsite\index.html:185
-msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-msgstr "Скоро переведу"
+#: selfsite/templates/selfsite/index.html:201
+msgid "Telegram Bots"
+msgstr "Телеграм Боты"
 
-#: .\selfsite\templates\selfsite\index.html:198
-msgid "Web Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:203
+msgid "Creating Telegram bots"
+msgstr "Создание Телегармм ботов"
 
-#: .\selfsite\templates\selfsite\index.html:200
-msgid ""
-"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:214
+msgid "Mobile Development"
+msgstr "Мобильная разработка"
 
-#: .\selfsite\templates\selfsite\index.html:212
-msgid "Web Development"
-msgstr "Веб Разработка"
+#: selfsite/templates/selfsite/index.html:216
+msgid "Creating mobile apps for Android"
+msgstr "Создание Мобильных приложений для Android"
 
-#: .\selfsite\templates\selfsite\index.html:214
-msgid ""
-"2Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni\n"
-"                  tempora perferendis eum non provident.\""
-msgstr ""
+#: selfsite/templates/selfsite/index.html:227
+msgid "Creating Web-Site"
+msgstr "Создание сайтов"
 
-#: .\selfsite\templates\selfsite\index.html:227
-msgid "Photography"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:229
+msgid "Creating web sites"
+msgstr "Создание Веб Сайтов"
 
-#: .\selfsite\templates\selfsite\index.html:229
-msgid ""
-"3Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni\n"
-"                  tempora perferendis eum non provident.\" "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:240
+msgid "Browser Scripts"
+msgstr "Скрипты Браузера"
 
-#: .\selfsite\templates\selfsite\index.html:242
-msgid "Responsive Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:242
+msgid "Writing Scripts for automatization and testing"
+msgstr "Создание скриптов автоматизации и тестирования для браузера"
 
-#: .\selfsite\templates\selfsite\index.html:244
-msgid ""
-"4Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:253
+msgid "Parsing sites"
+msgstr "Парсинг сайтов"
 
-#: .\selfsite\templates\selfsite\index.html:256
-msgid "Graphic Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:255
+msgid "Writing parsers"
+msgstr "Создание парсеров различных сайтов"
 
-#: .\selfsite\templates\selfsite\index.html:258
-msgid ""
-"5Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:266
+msgid "Others"
+msgstr "Другие"
 
-#: .\selfsite\templates\selfsite\index.html:270
-msgid "Marketing Services"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:268
+msgid "And many more other services"
+msgstr "И многие другие услуги"
 
-#: .\selfsite\templates\selfsite\index.html:272
-msgid ""
-"6Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
-
-#: .\selfsite\templates\selfsite\index.html:294
+#: selfsite/templates/selfsite/index.html:289
 msgid "WORKS COMPLETED"
 msgstr "РАБОТ ВЫПОЛНЕНО"
 
-#: .\selfsite\templates\selfsite\index.html:305
+#: selfsite/templates/selfsite/index.html:300
 msgid "YEARS OF EXPERIENCE"
 msgstr "ГОДОВ ОПЫТА"
 
-#: .\selfsite\templates\selfsite\index.html:316
+#: selfsite/templates/selfsite/index.html:311
 msgid "TOTAL CLIENTS"
 msgstr "ОБЩИХ КЛИЕНТОВ"
 
-#: .\selfsite\templates\selfsite\index.html:327
+#: selfsite/templates/selfsite/index.html:322
 msgid "AWARD WON"
 msgstr "ПОЛУЧЕНО ДОСТИЖЕНИЙ"
 
-#: .\selfsite\templates\selfsite\index.html:517
-#: .\selfsite\templates\selfsite\index.html:531
+#: selfsite/templates/selfsite/index.html:512
+#: selfsite/templates/selfsite/index.html:526
 msgid "Future Reviewer"
 msgstr "Будущий Рецензент"
 
-#: .\selfsite\templates\selfsite\index.html:521
+#: selfsite/templates/selfsite/index.html:516
 msgid "Here may be your review about me and my skills."
 msgstr "Здесь может быть ваш отзыв обо мне и моих навыках."
 
-#: .\selfsite\templates\selfsite\index.html:535
+#: selfsite/templates/selfsite/index.html:530
 msgid "Here may be your review about me and my skills"
 msgstr "Здесь может быть ваш отзыв обо мне и моих навыках."
 
-#: .\selfsite\templates\selfsite\index.html:680
+#: selfsite/templates/selfsite/index.html:675
 msgid "Send Message To Me"
 msgstr "Отправьте мне сообщение"
 
-#: .\selfsite\templates\selfsite\index.html:707
+#: selfsite/templates/selfsite/index.html:702
 msgid "Loading"
 msgstr "Загрузка"
 
-#: .\selfsite\templates\selfsite\index.html:709
+#: selfsite/templates/selfsite/index.html:704
 msgid "Your message has been sent. Thank you!"
 msgstr "Ваше сообщение отправлено, Спасибо!"
 
-#: .\selfsite\templates\selfsite\index.html:712
+#: selfsite/templates/selfsite/index.html:707
 msgid "Send Message"
 msgstr "Отправить сообщение"
 
-#: .\selfsite\templates\selfsite\index.html:721
+#: selfsite/templates/selfsite/index.html:716
 msgid "Get in Touch"
 msgstr "Связаться"
 
-#: .\selfsite\templates\selfsite\index.html:726
+#: selfsite/templates/selfsite/index.html:721
 msgid ""
 "Want to know more about me or suggest a project? Let me know with filling "
 "this form or contact me with one of links below"
 msgstr ""
 "Хотите узнать больше обо мне или предложить проект? Дайте мне знать, "
 "заполнив эту форму, или свяжитесь со мной по одной из ссылок ниже"
+
+#~ msgid "English"
+#~ msgstr "Русский"
+
+#~ msgid "Work"
+#~ msgstr "Работы"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#~ msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+#~ msgstr "Скоро переведу"
 
 #~ msgid "Drop Down"
 #~ msgstr "Дропдаун"

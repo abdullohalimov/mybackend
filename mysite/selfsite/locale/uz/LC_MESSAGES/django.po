@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 16:15+0500\n"
-"PO-Revision-Date: 2022-11-02 16:31+0500\n"
+"POT-Creation-Date: 2022-11-06 00:34+0500\n"
+"PO-Revision-Date: 2022-11-06 00:35+0500\n"
 "Last-Translator:   <test@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,77 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\selfsite\templates\selfsite\index.html:10
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:10
+#: selfsite/templates/selfsite/index.html:113
 msgid "Abdullokh Alimov"
 msgstr "Abdulloh Alimov"
 
-#: .\selfsite\templates\selfsite\index.html:47
+#: selfsite/templates/selfsite/index.html:47
 msgid "Home"
 msgstr "Bosh sahifa"
 
-#: .\selfsite\templates\selfsite\index.html:48
+#: selfsite/templates/selfsite/index.html:48
 msgid "About"
 msgstr "Men haqimda"
 
-#: .\selfsite\templates\selfsite\index.html:49
-#: .\selfsite\templates\selfsite\index.html:182
+#: selfsite/templates/selfsite/index.html:49
+#: selfsite/templates/selfsite/index.html:184
 msgid "Services"
 msgstr "Xizmatlar"
 
-#: .\selfsite\templates\selfsite\index.html:50
-msgid "Work"
-msgstr "Yakunlangan ishlar"
-
-#: .\selfsite\templates\selfsite\index.html:51
-msgid "Blog"
-msgstr "Blog"
-
-#: .\selfsite\templates\selfsite\index.html:52
+#: selfsite/templates/selfsite/index.html:54
 msgid "Contact"
 msgstr "Bog'lanish"
 
-#: .\selfsite\templates\selfsite\index.html:53
-msgid "English"
+#: selfsite/templates/selfsite/index.html:55
+msgid "Language"
 msgstr "O'zbekcha"
 
-#: .\selfsite\templates\selfsite\index.html:85
+#: selfsite/templates/selfsite/index.html:87
 msgid "I am Abdullokh Alimov"
 msgstr "Mening ismim Abdulloh Alimov"
 
-#: .\selfsite\templates\selfsite\index.html:86
+#: selfsite/templates/selfsite/index.html:88
 msgid "Developer, Freelancer"
 msgstr "Dasturchi, Freelancer"
 
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:113
 msgid "Name:"
 msgstr "Ism:"
 
-#: .\selfsite\templates\selfsite\index.html:112
+#: selfsite/templates/selfsite/index.html:114
 msgid "Profile:"
 msgstr "Mutaxassislik"
 
-#: .\selfsite\templates\selfsite\index.html:112
+#: selfsite/templates/selfsite/index.html:114
 msgid "Junior Software Developer"
 msgstr "Junior Software Developer"
 
-#: .\selfsite\templates\selfsite\index.html:113
+#: selfsite/templates/selfsite/index.html:115
 msgid "Email:"
 msgstr "Pochta"
 
-#: .\selfsite\templates\selfsite\index.html:114
+#: selfsite/templates/selfsite/index.html:116
 msgid "Phone:"
 msgstr "Telefon"
 
-#: .\selfsite\templates\selfsite\index.html:119
+#: selfsite/templates/selfsite/index.html:121
 msgid "Skill"
 msgstr "Bilimlar"
 
-#: .\selfsite\templates\selfsite\index.html:150
+#: selfsite/templates/selfsite/index.html:152
 msgid "About me"
 msgstr "Men xaqimda"
 
-#: .\selfsite\templates\selfsite\index.html:154
+#: selfsite/templates/selfsite/index.html:156
 msgid ""
 " 21 Year old Junoir Software Developer from Tashkent, Uzbekistan. I'm looking for interesting projects\n"
 "                      to participate in for gain new experience and learn something new. "
@@ -98,7 +90,7 @@ msgstr ""
 "loyihalarni qidiryapman, yangi tajriba orttirish va yangi narsalarni "
 "o'rganish maqsadida."
 
-#: .\selfsite\templates\selfsite\index.html:158
+#: selfsite/templates/selfsite/index.html:160
 msgid ""
 " I'm interested in all areas of programming, especially in Backend and Mobile Development. I know\n"
 "                      basics of Android development in Kotlin and Java. And can create basic site's backend with\n"
@@ -109,7 +101,7 @@ msgstr ""
 "dasturlash asoslarini bilaman, va Python va Django freymvorklarida Sayt "
 "backendini yoza olaman."
 
-#: .\selfsite\templates\selfsite\index.html:163
+#: selfsite/templates/selfsite/index.html:165
 msgid ""
 " I like write scripts for automation tasks and routines. Can write Scripts for OS routines\n"
 "                      in PyAutoGui, Website automation scripts with Selenium, and Site scraper with BeautifulSoup4 "
@@ -119,124 +111,106 @@ msgstr ""
 "script yoza olaman, Web saytlar avtomatizatsiyalarini Selenim va Saytlar "
 "parserlarini BeautifulSoap yordamida yoza olaman."
 
-#: .\selfsite\templates\selfsite\index.html:185
-msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
-msgstr "yaqin orada tarjima qilinadi"
+#: selfsite/templates/selfsite/index.html:201
+msgid "Telegram Bots"
+msgstr "Telegram Botlar"
 
-#: .\selfsite\templates\selfsite\index.html:198
-msgid "Web Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:203
+msgid "Creating Telegram bots"
+msgstr "Telegram uchun botlar yaratish"
 
-#: .\selfsite\templates\selfsite\index.html:200
-msgid ""
-"1Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:214
+msgid "Mobile Development"
+msgstr "Mobile dasturlash"
 
-#: .\selfsite\templates\selfsite\index.html:212
-msgid "Web Development"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:216
+msgid "Creating mobile apps for Android"
+msgstr "Android uchun mobil ilovalar yaratish"
 
-#: .\selfsite\templates\selfsite\index.html:214
-msgid ""
-"2Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni\n"
-"                  tempora perferendis eum non provident.\""
-msgstr ""
+#: selfsite/templates/selfsite/index.html:227
+msgid "Creating Web-Site"
+msgstr "Saytlar yaratish"
 
-#: .\selfsite\templates\selfsite\index.html:227
-msgid "Photography"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:229
+msgid "Creating web sites"
+msgstr "Turli saytlar yaratish"
 
-#: .\selfsite\templates\selfsite\index.html:229
-msgid ""
-"3Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni\n"
-"                  tempora perferendis eum non provident.\" "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:240
+msgid "Browser Scripts"
+msgstr "Brauzer skriptlari"
 
-#: .\selfsite\templates\selfsite\index.html:242
-msgid "Responsive Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:242
+msgid "Writing Scripts for automatization and testing"
+msgstr "Brauzer avtomatizatsiyasi yoki testi uchun skriptlar yozish"
 
-#: .\selfsite\templates\selfsite\index.html:244
-msgid ""
-"4Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:253
+msgid "Parsing sites"
+msgstr "Saytlar parseri"
 
-#: .\selfsite\templates\selfsite\index.html:256
-msgid "Graphic Design"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:255
+msgid "Writing parsers"
+msgstr "Turli saytlardan ma'lumot yig'uvchi parserlar yozish"
 
-#: .\selfsite\templates\selfsite\index.html:258
-msgid ""
-"5Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
+#: selfsite/templates/selfsite/index.html:266
+msgid "Others"
+msgstr "Boshqalar"
 
-#: .\selfsite\templates\selfsite\index.html:270
-msgid "Marketing Services"
-msgstr ""
+#: selfsite/templates/selfsite/index.html:268
+msgid "And many more other services"
+msgstr "Va boshqa turli xizmatlar"
 
-#: .\selfsite\templates\selfsite\index.html:272
-msgid ""
-"6Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,\n"
-"                  provident vitae! Magni tempora perferendis eum non provident. "
-msgstr ""
-
-#: .\selfsite\templates\selfsite\index.html:294
+#: selfsite/templates/selfsite/index.html:289
 msgid "WORKS COMPLETED"
 msgstr "YAKUNLANGAN ISHLAR"
 
-#: .\selfsite\templates\selfsite\index.html:305
+#: selfsite/templates/selfsite/index.html:300
 msgid "YEARS OF EXPERIENCE"
 msgstr "YIL TAJRIBA"
 
-#: .\selfsite\templates\selfsite\index.html:316
+#: selfsite/templates/selfsite/index.html:311
 msgid "TOTAL CLIENTS"
 msgstr "UMUMIY MIJOZLAR"
 
-#: .\selfsite\templates\selfsite\index.html:327
+#: selfsite/templates/selfsite/index.html:322
 msgid "AWARD WON"
 msgstr "ERISHILGAN UTUQLAR"
 
-#: .\selfsite\templates\selfsite\index.html:517
-#: .\selfsite\templates\selfsite\index.html:531
+#: selfsite/templates/selfsite/index.html:512
+#: selfsite/templates/selfsite/index.html:526
 msgid "Future Reviewer"
 msgstr "Bo'lajak izoxchi"
 
-#: .\selfsite\templates\selfsite\index.html:521
+#: selfsite/templates/selfsite/index.html:516
 msgid "Here may be your review about me and my skills."
 msgstr ""
 "Bu yerda sizning men yoki mening ishim xaqidagi izohingiz bo'lishi mumkin"
 
-#: .\selfsite\templates\selfsite\index.html:535
+#: selfsite/templates/selfsite/index.html:530
 msgid "Here may be your review about me and my skills"
 msgstr ""
 "Bu yerda sizning men yoki mening ishim xaqidagi izohingiz bo'lishi mumkin"
 
-#: .\selfsite\templates\selfsite\index.html:680
+#: selfsite/templates/selfsite/index.html:675
 msgid "Send Message To Me"
 msgstr "Menga Xabar Yuboring"
 
-#: .\selfsite\templates\selfsite\index.html:707
+#: selfsite/templates/selfsite/index.html:702
 msgid "Loading"
 msgstr "Yuklanyapti"
 
-#: .\selfsite\templates\selfsite\index.html:709
+#: selfsite/templates/selfsite/index.html:704
 msgid "Your message has been sent. Thank you!"
 msgstr "Sizning xabar yetkazildi. Rahmat!"
 
-#: .\selfsite\templates\selfsite\index.html:712
+#: selfsite/templates/selfsite/index.html:707
 msgid "Send Message"
 msgstr "Xabar jo'natish"
 
-#: .\selfsite\templates\selfsite\index.html:721
+#: selfsite/templates/selfsite/index.html:716
 msgid "Get in Touch"
 msgstr "Bog'lanish"
 
-#: .\selfsite\templates\selfsite\index.html:726
+#: selfsite/templates/selfsite/index.html:721
 msgid ""
 "Want to know more about me or suggest a project? Let me know with filling "
 "this form or contact me with one of links below"
@@ -244,6 +218,18 @@ msgstr ""
 "Men haqimda ko'proq bilmoqchimisiz yoki loyiha taklif qilmoqchimisiz? Ushbu "
 "formani to'ldirish orqali menga xabar bering yoki quyidagi havolalardan biri"
 " orqali men bilan bog'laning"
+
+#~ msgid "English"
+#~ msgstr "O'zbekcha"
+
+#~ msgid "Work"
+#~ msgstr "Yakunlangan ishlar"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+#~ msgstr "yaqin orada tarjima qilinadi"
 
 #~ msgid "Drop Down"
 #~ msgstr "Dropdown"

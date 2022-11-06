@@ -8,160 +8,196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-02 11:57+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-11-06 00:34+0500\n"
+"PO-Revision-Date: 2022-11-06 00:35+0500\n"
+"Last-Translator:   <test@mail.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\selfsite\templates\selfsite\index.html:10
-#: .\selfsite\templates\selfsite\index.html:110
+#: selfsite/templates/selfsite/index.html:10
+#: selfsite/templates/selfsite/index.html:113
 msgid "Abdullokh Alimov"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:47
+#: selfsite/templates/selfsite/index.html:47
 msgid "Home"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:48
+#: selfsite/templates/selfsite/index.html:48
 msgid "About"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:49
-#: .\selfsite\templates\selfsite\index.html:181
+#: selfsite/templates/selfsite/index.html:49
+#: selfsite/templates/selfsite/index.html:184
 msgid "Services"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:50
-msgid "Work"
-msgstr ""
-
-#: .\selfsite\templates\selfsite\index.html:51
-msgid "Blog"
-msgstr ""
-
-#: .\selfsite\templates\selfsite\index.html:52
-msgid "Drop Down"
-msgstr ""
-
-#: .\selfsite\templates\selfsite\index.html:69
+#: selfsite/templates/selfsite/index.html:54
 msgid "Contact"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:84
+#: selfsite/templates/selfsite/index.html:55
+msgid "Language"
+msgstr "English"
+
+#: selfsite/templates/selfsite/index.html:87
 msgid "I am Abdullokh Alimov"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:85
+#: selfsite/templates/selfsite/index.html:88
 msgid "Developer, Freelancer"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:110
+#: selfsite/templates/selfsite/index.html:113
 msgid "Name:"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:114
 msgid "Profile:"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:111
+#: selfsite/templates/selfsite/index.html:114
 msgid "Junior Software Developer"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:112
+#: selfsite/templates/selfsite/index.html:115
 msgid "Email:"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:113
+#: selfsite/templates/selfsite/index.html:116
 msgid "Phone:"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:118
+#: selfsite/templates/selfsite/index.html:121
 msgid "Skill"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:149
+#: selfsite/templates/selfsite/index.html:152
 msgid "About me"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:184
-msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+#: selfsite/templates/selfsite/index.html:156
+msgid ""
+" 21 Year old Junoir Software Developer from Tashkent, Uzbekistan. I'm looking for interesting projects\n"
+"                      to participate in for gain new experience and learn something new. "
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:212
-msgid "Web Development"
+#: selfsite/templates/selfsite/index.html:160
+msgid ""
+" I'm interested in all areas of programming, especially in Backend and Mobile Development. I know\n"
+"                      basics of Android development in Kotlin and Java. And can create basic site's backend with\n"
+"                      Python + Django pair. "
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:227
-msgid "Photography"
+#: selfsite/templates/selfsite/index.html:165
+msgid ""
+" I like write scripts for automation tasks and routines. Can write Scripts for OS routines\n"
+"                      in PyAutoGui, Website automation scripts with Selenium, and Site scraper with BeautifulSoup4 "
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:242
-msgid "Responsive Design"
+#: selfsite/templates/selfsite/index.html:201
+msgid "Telegram Bots"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:257
-msgid "Graphic Design"
+#: selfsite/templates/selfsite/index.html:203
+msgid "Creating Telegram bots"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:272
-msgid "Marketing Services"
+#: selfsite/templates/selfsite/index.html:214
+msgid "Mobile Development"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:297
+#: selfsite/templates/selfsite/index.html:216
+msgid "Creating mobile apps for Android"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:227
+msgid "Creating Web-Site"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:229
+msgid "Creating web sites"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:240
+msgid "Browser Scripts"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:242
+msgid "Writing Scripts for automatization and testing"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:253
+msgid "Parsing sites"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:255
+msgid "Writing parsers"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:266
+msgid "Others"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:268
+msgid "And many more other services"
+msgstr ""
+
+#: selfsite/templates/selfsite/index.html:289
 msgid "WORKS COMPLETED"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:308
+#: selfsite/templates/selfsite/index.html:300
 msgid "YEARS OF EXPERIENCE"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:319
+#: selfsite/templates/selfsite/index.html:311
 msgid "TOTAL CLIENTS"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:330
+#: selfsite/templates/selfsite/index.html:322
 msgid "AWARD WON"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:520
-#: .\selfsite\templates\selfsite\index.html:534
+#: selfsite/templates/selfsite/index.html:512
+#: selfsite/templates/selfsite/index.html:526
 msgid "Future Reviewer"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:524
+#: selfsite/templates/selfsite/index.html:516
 msgid "Here may be your review about me and my skills."
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:538
+#: selfsite/templates/selfsite/index.html:530
 msgid "Here may be your review about me and my skills"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:683
+#: selfsite/templates/selfsite/index.html:675
 msgid "Send Message To Me"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:710
+#: selfsite/templates/selfsite/index.html:702
 msgid "Loading"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:712
+#: selfsite/templates/selfsite/index.html:704
 msgid "Your message has been sent. Thank you!"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:715
+#: selfsite/templates/selfsite/index.html:707
 msgid "Send Message"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:724
+#: selfsite/templates/selfsite/index.html:716
 msgid "Get in Touch"
 msgstr ""
 
-#: .\selfsite\templates\selfsite\index.html:729
+#: selfsite/templates/selfsite/index.html:721
 msgid ""
 "Want to know more about me or suggest a project? Let me know with filling "
 "this form or contact me with one of links below"
