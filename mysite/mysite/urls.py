@@ -21,7 +21,6 @@ from django.urls import include, path, re_path
 urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls),
     # path('baton/', include('baton.urls')),
-    path('dashboard/', include('testdashboard.urls')),
     re_path(r'^rosetta/', include('rosetta.urls')),
     path('', include('selfsite.urls')),
 
